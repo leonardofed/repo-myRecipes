@@ -26,11 +26,55 @@ header h1{
 }
 header nav li {
   display: inline-block;
-  font-family: 'Source Sans Pro', sans-serif;  
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 0 30px;
 }
 
 header nav a{
   text-decoration: none;
   color: #333;
+}
+.recipe-info{
+  border: 2px solid #8BC13F;
+  padding: 36px 0px 50px 62px;
+  position:relative;
+}
+
+.content{
+  margin: 20px 0;
+}
+
+.recipe-info h2 {
+  margin: 0 0 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.recipe-meta {
+  color: #8BC13F;
+  font-size:11px;
+}
+
+.user-interactions{
+  position:absolute;
+  top:36px;
+  right:0;
+  width:220px;
+}
+
+.rating {
+  width:50%;
+  float:left;
+  text-align:center;
+}
+
+.rating .number{
+  display: block;
+  font-size:48px;
+}
+.rating .percentage{
+  display:block;
+  font-size:48px;
+}
+
+.rating span {
+  color:#999;
 }
