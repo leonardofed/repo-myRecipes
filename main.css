@@ -78,3 +78,14 @@ header nav a{
 .rating span {
   color:#999;
 }
+
+.recipe-body figure img{
+  max-width:580px;
+  margin-top: -70px;
+  border: 20px solid #fff;
+  margin-left:30px;
+}
+
+.recipe-body{
+    position:relative;
+}
